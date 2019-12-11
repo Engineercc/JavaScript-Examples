@@ -1,3 +1,5 @@
+console.log("whats up JS ?");
+var i = document.querySelector("h2").innerText = "kes Lan!!";
 
 var key = 5;
 var x = "011";
@@ -73,34 +75,37 @@ var files = [
   { title: 'jquery', content: 'jqueryCodes' },
 
 ];
-/*for (var i = 0; i < files.length; i++) {
+for (var i = 0; i < files.length; i++) {
   console.log(files[i]);
-    if((files[i].content.length)%2==0)
-    console.log(files[i].content);
-}*/
+}
+for (var j = 0; j < files.length; j++) {
+  if (j % 2 == 0)
+    console.log(files[j].content);
+}
+
 
 /*files.forEach((fileDisplay,x) => { // first: func. name, second: array index, third: array
   console.log(fileDisplay);
 });*/
-var keys=[];
-var myKeys=[];
-var myContents=[];
-var myTitles=[];
+var keys = [];
+var myKeys = [];
+var myContents = [];
+var myTitles = [];
 
-for(key in person){
- // console.log(key + ' : ' + person[key],person[key]);
- keys.push(key); // verilen diziye başka bir dizi ekler.
+for (key in person) {
+  // console.log(key + ' : ' + person[key],person[key]);
+  keys.push(key); // verilen diziye başka bir dizi ekler.
 }
-for(key in files){
+for (key in files) {
   myKeys.push(files[key]); // Files arrayini pushladı. 
   // Burada object tipi olduğu için  [] içinde key değerini yazdık.
 
   myContents.push(files[key].content); // sadece contentleri pushladı.
   myTitles.push(files[key].title); // sadece titleları pushladı.
 }
- console.log(keys);
+/* console.log(keys);
   console.log(myKeys);
   console.log(myContents);
-  console.log(myTitles);
+  console.log(myTitles);*/
 
 //console.log(Object.keys(person).lastIndexOf(key));
