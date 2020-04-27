@@ -168,7 +168,7 @@ const foo= {a:1}; // buradaki örnekte ise değişen foo'nun kendisi değil, nes
 foo.b=2;
 console.log(foo);
 
-let t=11; // let ile tanımlanan bir değer, sonradan değiştirilebilir.
+let t=11; // let ile tanımlanan bir değer, sonradan değiştirilebilir. Let ile tanımlanan değişken, sadece bir kez tanımlabilir.
 t=12;
 console.log(t);
 
