@@ -1,5 +1,5 @@
 console.log("whats up JS ?");
-var i = document.querySelector("h2").innerText = "kes Lan!!";
+var i = document.querySelector("h2").innerText = "What's up dudee!!";
 
 var key = 5;
 var x = "011";
